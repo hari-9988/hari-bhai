@@ -110,6 +110,23 @@ src="https://www.facebook.com/tr?id=622599653827581&ev=PageView&noscript=1"
 
   gtag('config', 'AW-17650264457');
 </script>
+  <!-- Event snippet for Subscribe conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17650264457/H0tFCI_4rK0bEInTpuBB',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
   
 </head>
 <body>
