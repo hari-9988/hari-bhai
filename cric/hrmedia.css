@@ -285,8 +285,8 @@ img {
   border: none;
   font-family: 'Lato';
   font-size: 18px;
-  color: inherit;
-  background: none;
+  color: #fff;
+  background: #25D366;
   cursor: pointer;
   padding: 25px 80px;
   display: inline-block;
@@ -325,7 +325,7 @@ img {
 
 .btn:hover{
   border-radius:5px;
-  background-color:#0062b3;
+  background-color:#1ebe5d;
   transition:0.5s;
 }
 
